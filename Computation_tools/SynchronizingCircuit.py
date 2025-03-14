@@ -193,7 +193,6 @@ class SynchExperiment_FlowControl_Entanglement(SynchExperiment_FlowControl):
         res = simulator.run(qc_comp).result()
         return res.get_counts(qc_comp)
     
-import numpy as np
 
 class op:
     up = np.array([1,0])
